@@ -698,7 +698,10 @@ export const ColorPickerHueSaturation: FC<{
         height={shadeGradientHeight}
         onSelect={onChange}
         fixedVerticalPosition={true}
-        initialPickerPosition={{ x: shadeGradientWidth - 5, y: pickerSize + 4 }}
+        initialPickerPosition={{
+          x: hueGradientWidth / 2 - pickerSize / 2,
+          y: hueGradientHeight / 2,
+        }}
         gradients={[
           { direction: "to-right", colors: [BlackOpaque, reflectedColor] },
         ]}
@@ -712,7 +715,10 @@ export const ColorPickerHueSaturation: FC<{
         height={shadeGradientHeight}
         fixedVerticalPosition={true}
         onSelect={onChange}
-        initialPickerPosition={{ x: shadeGradientWidth - 5, y: pickerSize + 4 }}
+        initialPickerPosition={{
+          x: hueGradientWidth / 2 - pickerSize / 2,
+          y: hueGradientHeight / 2,
+        }}
         gradients={[
           { direction: "to-right", colors: [WhiteOpaque, reflectedColor] },
         ]}
@@ -850,7 +856,10 @@ export const ColorPickerRGB: FC<{
         height={shadeGradientHeight}
         onSelect={onChange}
         fixedVerticalPosition={true}
-        initialPickerPosition={{ x: shadeGradientWidth - 5, y: pickerSize + 4 }}
+        initialPickerPosition={{
+          x: hueGradientWidth / 2 - pickerSize / 2,
+          y: hueGradientHeight / 2,
+        }}
         gradients={[
           { direction: "to-right", colors: [Magenta, reflectedColor, Blue] },
         ]}
@@ -864,7 +873,10 @@ export const ColorPickerRGB: FC<{
         height={shadeGradientHeight}
         onSelect={onChange}
         fixedVerticalPosition={true}
-        initialPickerPosition={{ x: shadeGradientWidth - 5, y: pickerSize + 4 }}
+        initialPickerPosition={{
+          x: hueGradientWidth / 2 - pickerSize / 2,
+          y: hueGradientHeight / 2,
+        }}
         gradients={[
           { direction: "to-right", colors: [Black, reflectedColor, WhiteTransparent] },
         ]}
@@ -878,7 +890,10 @@ export const ColorPickerRGB: FC<{
         height={shadeGradientHeight}
         onSelect={onChange}
         fixedVerticalPosition={true}
-        initialPickerPosition={{ x: shadeGradientWidth - 5, y: pickerSize + 4 }}
+        initialPickerPosition={{
+          x: hueGradientWidth / 2 - pickerSize / 2,
+          y: hueGradientHeight / 2,
+        }}
         gradients={[
           { direction: "to-right", colors: [Blue, Black] },
         ]}
