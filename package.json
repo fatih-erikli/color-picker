@@ -1,0 +1,35 @@
+{
+  "name": "@fatih-erikli/color-picker",
+  "version": "1.0.0",
+  "description": "Color picker for data visualization",
+  "main": "color-picker/index.js",
+  "scripts": {
+    "test": "jest --config=jestconfig.json",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/fatih-erikli/color-picker"
+  },
+  "keywords": [
+    "color",
+    "picker",
+    "data",
+    "visualization",
+    "react",
+    "typescript"
+  ],
+  "author": "Fatih Erikli",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.37",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
